@@ -10,6 +10,10 @@
     <div id = "calculator">
         <input id ="display" readonly>
         <div id= "keys">
+            <button onclick="clearDisplay('C')" class = 'operator'>C</button>
+            <button onclick="toDisplay( '%' )" class='operator'>%</button>
+            <button onclick="backSpace()"class = 'operator' >←</button>
+            <button onclick="changeSign()" class = 'operator' >-/+</button>
             <button onclick="toDisplay('+')" class = 'operator'>+</button>
             <button onclick="toDisplay('7')">7</button>
             <button onclick="toDisplay('8')">8</button>
@@ -26,9 +30,8 @@
             <button onclick="toDisplay('0')">0</button>
             <button onclick="toDisplay('.')">.</button>
             <button onclick="calculate()">=</button>
-            <button onclick="clearDisplay('C')" class = 'operator'>C</button>
-            <button onclick="toDisplay( '%' )" class='operator'>%</button>
-            <button onclick="backSpace()"class = 'operator' >←</button>
+           
+            
         </div>
     </div>
     <script src="script.js"></script>
