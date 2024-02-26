@@ -9,3 +9,10 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    gap:  5%;
+    padding: 25px;
+}
