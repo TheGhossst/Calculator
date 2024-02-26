@@ -43,3 +43,7 @@ body{
     align-items: center;
     background-color: hsl(0, 12%, 80%);
 }
+
+button:hover{
+    background-color:hsl(0, 0%, 45%);
+}
