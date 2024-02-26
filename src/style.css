@@ -25,3 +25,13 @@ button{
     max-height: 7%;
     overflow: hidden;
 }
+
+#display{
+    width:  100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 25%);
+    color: white;
+}
