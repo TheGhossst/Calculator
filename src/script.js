@@ -20,3 +20,9 @@ function calculate(){
 function backSpace(){
     display.value = display.value.substring(0, display.value.length - 1);
 }
+
+function changeSign() {
+    let currentValue = parseFloat(display.value);
+    if (!isNaN(currentValue))  display.value = -currentValue;
+    
+}
