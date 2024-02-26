@@ -18,5 +18,5 @@ function calculate(){
 }
 
 function backSpace(){
-    display.value = display.value.substring(0, currentValue.length - 1);
+    display.value = display.value.substring(0, display.value.length - 1);
 }
