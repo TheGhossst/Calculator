@@ -24,5 +24,4 @@ function backSpace(){
 function changeSign() {
     let currentValue = parseFloat(display.value);
     if (!isNaN(currentValue))  display.value = -currentValue;
-    
 }
