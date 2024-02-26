@@ -16,3 +16,7 @@ function calculate(){
         clearDisplay();
     }
 }
+
+function backSpace(){
+    display.value = display.value.substring(0, currentValue.length - 1);
+}
