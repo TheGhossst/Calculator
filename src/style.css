@@ -45,5 +45,9 @@ body{
 }
 
 button:hover{
-    background-color:hsl(0, 0%, 45%);
+    background-color:hsl(0, 0%, 50%);
+}
+
+button:active{
+    background-color:hsl(0, 0%, 80%);
 }
