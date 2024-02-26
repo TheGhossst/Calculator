@@ -13,6 +13,15 @@ button{
 #keys{
     display: grid;
     grid-template-columns: repeat(4, 1fr) ;
-    gap:  5%;
+    gap:  25px;
     padding: 25px;
+}
+
+#calculator{
+    font-family: sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius:  15px;
+    max-width: 550px;
+    max-height: 7%;
+    overflow: hidden;
 }
